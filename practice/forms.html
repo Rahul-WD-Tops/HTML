@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML Forms</title>
+</head>
+<!---
+        Forms --- input, select, textarea
+    -->
+
+<body>
+    <fieldset>
+        <legend>Personal Details</legend>
+        <form action="" method="post" enctype="">
+            <label>Salutation</label>
+            <select name="salutation">
+                <option value="">--None--</option>
+                <option value="mr">Mr.</option>
+                <option value="mrs">Mrs.</option>
+            </select>
+            <br />
+            <br />
+            <label>First name:</label>
+            <input type="text" name="firstname" id="firstname">
+            <br />
+            <br />
+            <label>Last name:</label>
+            <input type="text" name="lastname" id="lastname">
+            <br />
+            <br />
+            <label>Gender:</label>
+            <input type="radio" name="gender" id="male" value="male">Male
+            <input type="radio" name="gender" id="female" value="female">Female
+            <br />
+            <br />
+            <label>Email:</label>
+            <input type="text" name="email" id="email">
+            <br />
+            <br />
+            <label>Date of Birth:</label>
+            <input type="date" name="dob" id="dob">
+            <br />
+            <br />
+            <label>Address:</label>
+            <br />
+            <textarea name="address" id="address" rows="4" cols="35"></textarea>
+            <br />
+            <br />
+            <br />
+            <button>Submit</button>
+        </form>
+    </fieldset>
+</body>
+
+</html>
