@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Task</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: teal;
+            
+        }
+        body{
+overflow: hidden;
+        }
+        .parent{
+            position: relative;
+            height: 100vh;
+        }
+        div[class*="box"]{
+
+            height:100px;
+            width: 100px;
+            border: 5px solid black;
+            position: absolute;
+          }
+        .box-1{
+            background-color: yellowgreen;
+            top: 30%;
+            left:40%;
+            
+
+        }
+        .box-2{
+            background-color: grey;
+            bottom: -50px;
+    right: -39px;
+}
+            
+
+        
+        .box-3{
+            background-color: purple;
+        left: -50px;
+        bottom: 0;
+
+    
+
+        }
+        .box-4{
+            background-color: wheat;
+            right: -40px;
+            top:   -40px;
+
+        }
+        .box-5{
+            background-color: whitesmoke;
+            left: -50px;
+            top: -50px;
+
+        }
+        /* .box-6{
+            background-color: red;
+            right: 45px;
+            top: -50;
+           
+
+        } */
+        </style>
+    
+
+
+</head>
+<body>
+    <div class="parent">
+    <div class="box-1"></div>
+    <div class="box-2"></div>
+    <div class="box-3"></div>
+    <div class="box-4"></div>
+    <div class="box-5"></div>
+    <!-- <div class="box-6"></div> -->
+</div>
+    
+</body>
+</html>
